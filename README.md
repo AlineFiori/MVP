@@ -16,11 +16,11 @@ Para rodar a análise, abra o Template_Analise_de_Dados_Pregnancy.ipynb em um am
 
 É necessário instalar as seguintes bibliotecas para este projeto:
 
-- pandas: Manipulação e análise de dados
-- numpy: Computação numérica e científica em Python
-- matplotlib: Plotagem e visualização de dados
-- seaborn: Visualização de dados científicos
-- scikit-learn: Módulos para divisão de dados (train_test_split), normalização (MinMaxScaler) e padronização (StandardScaler)
+- Pandas: Manipulação e análise de dados
+- Numpy: Computação numérica e científica em Python
+- Matplotlib: Plotagem e visualização de dados
+- Seaborn: Visualização de dados científicos
+- Scikit-learn: Módulos para divisão de dados (train_test_split), normalização (MinMaxScaler) e padronização (StandardScaler)
 
 
 
@@ -36,7 +36,7 @@ O trabalho foi estruturado em diversas etapas, garantindo uma análise robusta e
 
    1.3 Análise de Variáveis Numéricas e Categóricas: É fundamental para extrair insights iniciais, validar hipóteses e guiar as próximas etapas do desenvolvimento do projeto.     Entender a natureza e o comportamento de cada tipo de variável permite construir uma base sólida para modelos mais complexos e decisões estratégicas.
 
-   1.4 Matriz de Correlação: É uma ferramenta de suma importância para compreender as relações entre as variáveis numéricas do conjunto de dados. Ela serve como um mapa rápido    e eficiente para identificar padrões, dependências e possíveis problemas antes de mergulhar em análises mais complexas ou na construção de modelos.As correlações positivas     indicam que as variáveis tendem a se mover na mesma direção.
+   1.4 Matriz de Correlação: É uma ferramenta de suma importância para compreender as relações entre as variáveis numéricas do conjunto de dados. Ela serve como um mapa rápido    e eficiente para identificar padrões, dependências e possíveis problemas antes de mergulhar em análises mais complexas ou na construção de modelos. As correlações positivas     indicam que as variáveis tendem a se mover na mesma direção.
 
   
 2. Pré Processamento de Dados: O pré-processamento de dados é uma etapa crucial para preparar os dados para modelagem, ou seja, transformar os dados brutos em um formato adequado para algoritmos de aprendizado de máquina, garantindo que estejam no formato correto e otimizados para o desempenho do algoritmo.
@@ -51,7 +51,7 @@ O trabalho foi estruturado em diversas etapas, garantindo uma análise robusta e
   
   
 3. Conclusão
-O objetivo principal deste MVP foi explorar as características de saúde em mulheres gestantes para identificar indicadores de risco e preparar os dados para futuras etapas de modelagem preditiva. Através de diversas etapas de análise, insights importantes foram obtidos:
+O objetivo principal deste MVP é explorar as características de saúde em mulheres gestantes para identificar indicadores de risco e preparar os dados para futuras etapas de modelagem preditiva. Através de diversas etapas de análise, insights importantes foram obtidos:
 
    Preparação e Engenharia de Features:
    - Enriquecimento do Dataset: A criação da coluna "Idade_35+" foi uma decisão estratégica baseada em conhecimento de domínio médico, reconhecendo que a idade gestacional a        partir de 35 anos é um fator de risco comprovado. Esta feature binária é um preditor valioso que captura uma relação não-linear com o risco.
@@ -78,4 +78,3 @@ O objetivo principal deste MVP foi explorar as características de saúde em mul
 
    Próximos Passos:
    Com os dados limpos, transformados e as relações iniciais compreendidas, o próximo passo lógico e crucial é a construção e avaliação de modelos de Machine Learning. Este       MVP estabeleceu uma base sólida e insights valiosos para o desenvolvimento de um sistema preditivo robusto para a avaliação de risco gestacional.
-   Este trabalho estabelece uma base sólida para o desenvolvimento de um sistema preditivo robusto na avaliação de risco gestacional.
